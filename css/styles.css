@@ -222,11 +222,13 @@ img {
 
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
 }
 
 .team-item {
-  width: calc((100% - 72px) / 4);
+  width: 264px;
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   box-shadow:
@@ -435,6 +437,14 @@ img {
   .values-item-subtitle {
     text-align: left;
   }
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -490,6 +500,10 @@ img {
 
   .values-item-text {
     font-weight: 400;
+  }
+
+  .team-list {
+    gap: 24px;
   }
 }
 
