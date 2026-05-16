@@ -142,7 +142,7 @@ img {
   padding: 72px 0;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url('../images/hero-background.jpg');
+    url('../images/hero-background-1x.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -155,7 +155,7 @@ img {
   .hero {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('../images/hero-background.jpg');
+      url('../images/hero-background-2x.jpg');
   }
 }
 
